@@ -1,0 +1,18 @@
+server:
+  # 엘라스틱빈즈톡으로 배포를 하게 되면 nginx에 의해 5000번 default로 프록시 처리가 된다.
+  port: 5000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/menudb # url 같은거 클라우드 환경에 배포하면 localhost가 안 먹힘
+    username: ohgiraffers
+    password: ohgiraffers
+
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    database: mysql
+    properties:
+      hibernate:
+        format_sql: true
