@@ -14,7 +14,7 @@ public class ElasticbeanstalkApplication {
 
     @Bean
     public ModelMapper modelMapper() {
-        return new modelMapper();
+        return new ModelMapper();
     }
 
 }

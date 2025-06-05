@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/menudb # url 같은거 클라우드 환경에 배포하면 localhost가 안 먹힘
+    url: jdbc:mysql://localhost:3306/menudb # rds 주소 복사
     username: ohgiraffers
     password: ohgiraffers
 

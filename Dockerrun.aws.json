@@ -1,0 +1,12 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name":  "<ECR Repository 주소>:<Image 태그 이름>",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 5000
+    }
+  ]
+}
